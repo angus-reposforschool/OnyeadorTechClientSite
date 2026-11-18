@@ -1,0 +1,135 @@
+.cambay-regular {
+  font-family: "Cambay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cambay-bold {
+  font-family: "Cambay", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cambay-regular-italic {
+  font-family: "Cambay", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cambay-bold-italic {
+  font-family: "Cambay", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-light-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sansation, sans-serif;
+}
+
+.navbar {
+    font-family: cambay, sans-serif;
+    overflow: hidden;
+}
+
+.centering-nav {
+  transform: translateX(40vw);
+}
+
+.navbar-toggler {
+  transform: translateX(-40vw);
+}
+
+.container {
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  background: gainsboro;
+  padding-top: 20px;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+}
+
+.tit {
+  font-size: 1.2em;
+  font-weight: 700;
+
+}
+
+.sec {
+  font-size: 0.9em;
+}
+
+.infolink {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  font-size: 0.9em;
+}
+
+.contact a:link {
+  color: #b077e8;
+}
+
+.contact a:visited {
+  color: #582c83;
+}
+
+.contact a:hover {
+  color: #cb9cfa;
+}
+
+.contact a:active {
+  color: #582c83;
+}
