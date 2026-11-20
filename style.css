@@ -85,6 +85,19 @@ body {
   margin-top: 30px;
 }
 
+.contactbtn, .supportbtn {
+  background: #582c83;
+  color: #d4d631;
+  padding: 5px;
+  width: 150px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.contactbtn:hover {
+  background: #b077e8;
+}
+
 footer {
   display: flex;
   flex-direction: row;

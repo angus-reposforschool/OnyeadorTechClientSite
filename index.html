@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Home | TechTech</title>
 </head>
 <body class="bg-body-tertiary">
@@ -47,15 +48,20 @@
     <div class="container">
         <h2 class="value">Our values and beliefs</h2>
         <p class="values">School is about discipline, hard work, and time management. Be sure you are seeking help and advice so you don't go astray or drift off. At Tech, we work hard to take care of the technology that enables learning and teaching.<br><br>Plug in your Chromebook after use. Do not just dump and leave. Students are in a hurry to get out, but they expect computers to be fully charged when they come back.</p>
-        <h3 class="value">How you can be proactive</h2>
+        <h3 class="value">How you can be proactive</h3>
         <p class="values">Many students are interested in job placement, college admission, and whether it is easy to find an industry professional to mentor them.<br><br>Well, luckily the CCC (College and Career Center) exists and can help you find a mentor for your future pathway.</p>
-        <h3 class="value">Contact us for specialized tech help</h2>
+        <h3 class="value">Contact us for specialized tech help</h3>
+        <button class="contactbtn" id="contactbtn" type="button">Contact us</button>
+        <p></p>
         <!--btn scrolls down-->
-        <h3 class="value">Chromebook repair</h2>
+        <h3 class="value">Chromebook repair</h3>
         <p class="values">For Chromebook repair and most classroom support. Teachers need to complete the Tech Needs form or submit a request to the district technology services in order to get a district-assigned technician to respond to the ticket.  </p>
-        <h3 class="value">No tech at home?</h2>
+        <h3 class="value">No tech at home?</h3>
         <p class="values">If you need a hotspot or computer for home use, please ask your parent to complete the request in Aeries. Parents can request a student computer for home use in Aeries</p>
-        <!--btn with link https://drive.google.com/file/d/11ZQ6SapKepV_hdzJUUzq9utw70iIJFSZ/view?usp=sharing-->
+        <form action="https://drive.google.com/file/d/11ZQ6SapKepV_hdzJUUzq9utw70iIJFSZ/view" target="_blank">
+            <button class="supportbtn">Request tech</button>
+        </form>
+        <p></p>
         <h3 class="value">How would I get my requested tech?</h3>
         <p class="values">The tech request goes to the district technology services office where the information is processed and the requested technology is sent to the school. They will subsequently deliever it to the students' teacher where the students can pick it up during class.</p>
         <h3 class="value">My question wasn't answered, where is this information from?</h3>
@@ -68,7 +74,7 @@
         </div>
         <div class="infolink">
             <h3 class="tit">Contact us</h3>
-            <p class="contact">Room 4: Ext. 3051104 for all Technology repair.<br>For District support submit a request at:<br><a href="https://help.ousd.org">https://help.ousd.org</a> </p>
+            <p class="contact" id="contact">Room 4: Ext. 3051104 for all Technology repair.<br>For District support submit a request at:<br><a href="https://help.ousd.org">https://help.ousd.org</a> </p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
